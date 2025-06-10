@@ -1,22 +1,27 @@
 
 # Escape the Haunted Mansion 🏚️👻
 
-A JavaFX-based mystery puzzle game designed for competitions. Explore haunted rooms, solve logic puzzles, and escape before time runs out — now with a sleek, visually polished interface.
+You awaken in a dusty room with no memory of how you arrived. The air is thick with mystery, and shadows stretch long across the creaking wooden floors. A flickering chandelier sways above as an eerie whisper drifts through the halls: "No one leaves until the past is put to rest..."
+
+This is no ordinary mansion — it's a puzzle-filled prison where every room hides secrets, riddles, and echoes of a forgotten history. Your only hope lies in solving the mysteries within five haunted chambers, each one more chilling than the last. Time is running out. Can you outwit the mansion before it claims you as its next ghost?
+
+Welcome to Escape the Haunted Mansion.
+Face the puzzles. Uncover the truth. Escape — or be trapped forever.
 
 ---
 
-## 🔥 Features
+##  Features
 
-- 🎨 Visually enhanced UI (dark gothic theme with CSS)
-- 🧩 Puzzle Room with interactive logic
-- 👤 SQLite-based Login & Register system
-- 📁 MVC structure using JavaFX + FXML
-- 💻 Smooth scene transitions
-- 🧪 Judge-friendly layout for demos
+-  Visually enhanced UI (dark gothic theme with CSS)
+-  Puzzle Room with interactive logic
+-  SQLite-based Login & Register system
+-  MVC structure using JavaFX + FXML
+-  Smooth scene transitions
+-  Judge-friendly layout for demos
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 🔧 Requirements
 - Java 11 or newer
@@ -42,7 +47,7 @@ Or use an IDE like IntelliJ or Eclipse:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 src/
  └── main/
@@ -57,7 +62,4 @@ src/
 
 ---
 
-## 🏆 Submission-Ready
-Designed with competitions in mind. Visually appealing, functionally solid, and easy to present.
 
----
