@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="game.LoginController"
+            prefWidth="400" prefHeight="300" styleClass="main-bg">
+    <VBox spacing="10" alignment="CENTER" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0"
+          AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+        <Label text="Login / Register" styleClass="title"/>
+        <TextField fx:id="usernameField" promptText="Username"/>
+        <PasswordField fx:id="passwordField" promptText="Password"/>
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="Login" onAction="#handleLogin"/>
+            <Button text="Register" onAction="#handleRegister"/>
+        </HBox>
+        <Button text="Back to Menu" onAction="#handleBack"/>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,37 @@
+
+.root {
+    -fx-font-family: "Georgia", serif;
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #f5f5f5;
+}
+
+.main-bg {
+    -fx-background-color: linear-gradient(to bottom, #2c2c2c, #1a1a1a);
+}
+
+.title {
+    -fx-font-size: 26px;
+    -fx-text-fill: #e63946;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.menu-button {
+    -fx-background-color: #333333;
+    -fx-text-fill: #f1f1f1;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-padding: 10 20;
+}
+
+.menu-button:hover {
+    -fx-background-color: #e63946;
+    -fx-text-fill: white;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #444;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-padding: 5 10;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="game.PuzzleRoomController"
+            prefWidth="600" prefHeight="400" styleClass="main-bg">
+    <VBox spacing="10" alignment="CENTER" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0"
+          AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+        <Label text="Puzzle Room 1" styleClass="title"/>
+        <ImageView fitWidth="200" fitHeight="150">
+            <image>
+                <Image url="@../assets/puzzle_clue.png"/>
+            </image>
+        </ImageView>
+        <TextField fx:id="answerField" promptText="Enter your answer here..."/>
+        <Button text="Submit" onAction="#handleSubmit"/>
+        <Button text="Back to Menu" onAction="#handleBack"/>
+    </VBox>
+</AnchorPane>
