@@ -19,6 +19,8 @@ Escape-Haunted-Mansion is a JavaFX puzzle game consisting of five escape rooms, 
 
 
 ##🕹️ Game Instructions: Escape Haunted Mansion
+
+
 🔐 1. Launching the Game
 Open the project in IntelliJ IDEA or Eclipse.
 
