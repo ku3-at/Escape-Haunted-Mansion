@@ -23,9 +23,9 @@ Escape-Haunted-Mansion is a JavaFX puzzle game consisting of five escape rooms, 
 
  1. Launching the Game
 
--Open the project in IntelliJ IDEA or Eclipse.
--Ensure JavaFX libraries are added correctly to your module path.
--Locate and run the Main class to launch the game.
+--Open the project in IntelliJ IDEA or Eclipse.
+--Ensure JavaFX libraries are added correctly to your module path.
+--Locate and run the Main class to launch the game.
 
  2. Logging In
 
